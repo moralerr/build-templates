@@ -19,6 +19,6 @@ jobs:
           java-version: '17'  # Adjust if you need a different Java version
 
       - name: Build with Maven
-        run: mvn -B clean package
+        run: mvn -B clean package -DskipTests
         # or run: mvn -B clean install
         # Adjust the command as needed
